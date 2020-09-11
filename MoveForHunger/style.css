@@ -1,0 +1,390 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+    font-family: monospace;
+}
+
+header{
+
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(background.jpg);
+	background-color:#FFF;
+    height: 120vh;
+    background-size:cover;
+    background-position: center;
+	
+}
+
+.logo img
+
+{
+	float: left;
+	width: 200px;
+    height: auto;
+	
+}
+.main-nav{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+
+	
+}
+
+.main-nav li{
+	display: inline;
+	font-size: 25px;
+	 
+}
+
+.main-nav li a{
+	text-decoration: none;
+	color: #000000;
+	padding: 10px 20px;
+	border: 2px solid transparent;
+	transition: 0.6s ease;
+}
+
+.main-nav li a:hover{
+	background-color: #000;
+	color:#fff; 
+	
+}
+.main-nav li.active a{
+	background-color: #000;
+	color: #fff;
+}
+.main {
+	max-width: 1200px;
+	margin: auto;
+	
+}
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color:#fff;
+	font-size:30px;
+}
+.button {
+	display:inline;
+	Position: absolute;
+	top: 60%;
+	left:50%;
+	font-size: 20px;
+	color:#fff;
+	transform:translate(-50%,-50%);
+}
+.button a{
+	border: 2px solid #fff;
+	padding: 10px;
+	color:#fff;
+	text-decoration:none;
+	
+}
+.button a:hover{
+	background-color: #fff;
+	color:#000;
+
+}
+.loginbox{
+	  width: 420px;
+	  height: 520px;
+	  background:#000;
+	  color:#fff ;
+	  top:60%;
+	  left:50%;
+	  position:absolute;
+	  transform:translate(-50%,-50%);
+	  box-sizing:border-box;
+	  padding:70px 30px;
+}
+.loginbox h1{
+	margin:0;
+	padding:0 0 20px;
+	text-align: center;
+	font-size: 22px;
+	
+}  
+.loginbox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+.loginbox input{
+	width:100%;
+	margin-bottom:20px; 
+}
+.loginbox input[type="text"], input[type="Password"]{
+	
+	border: none;
+	border-bottom: 1px solid #fff; 
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color:#fff;
+	font-size:16px;
+	}
+.loginbox input[type="submit"]
+	{
+		border: none; 
+		outline: none;
+		height: 40px;
+		background: #fb2525;
+		color: #fff;
+		font-size: 18px;
+		border-radius: 20px;
+		
+	}  
+	.loginbox input[type="submit"]:hover
+	{
+		cursor:pointer;
+		background:#8B008B;
+		code:#000;
+	}
+	
+	
+	
+	
+	.loginbox a
+	{
+		text-decoration:none;
+		font-size:16px;
+		line-height:20px;
+		color:#fff;
+		display: inline;
+	}
+	.loginbox a:hover
+	{
+		cursor:pointer;
+		background:#fff;
+		color:#8B008B;
+	
+	}
+	
+	
+	.Registrationbox{
+	  width: 420px;
+	  height: 800px;
+	  background:#000;
+	  color:#fff ;
+	  top:65%;
+	  left:50%;
+	  position:absolute;
+	  transform:translate(-50%,-50%);
+	  box-sizing:border-box;
+	  padding:30px 30px;
+	  font-size: 16px;
+}
+.Registrationbox h1{
+
+	margin:0;
+	padding:0 0 20px;
+	text-align: center;
+	font-size: 23px;
+}   */
+.Registrationbox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	font-size: 16px;
+}
+.Registrationbox input{
+	width:100%;
+	margin-bottom:20px; 
+	font-size: 10px;
+}
+.Registrationbox input[type="text"], input[type="Password"],input[type="number"], input[type="email"]{
+	
+	border: none;
+	border-bottom: 1px solid #fff; 
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color:#fff;
+	font-size:16px;
+	}
+	.Registrationbox input[type="submit"]
+	{
+		border: none; 
+		outline: none;
+		height: 40px;
+		background: #fb2525;
+		color: #fff;
+		font-size: 18px;
+		border-radius: 20px;
+		
+	}  
+	.Registrationbox input[type="submit"]:hover
+	{
+		cursor:pointer;
+		background:#8B008B;
+		code:#000;
+	}
+	
+	.Registrationbox a
+	{
+		text-decoration:none;
+		font-size:16px;
+		line-height:20px;
+		color:#fff;
+		display: inline;
+	}
+	.Registrationbox a:hover
+	{
+		cursor:pointer;
+		background:#fff;
+		color:#8B008B;
+	}
+	.Donate{
+	  width: 420px;
+	  height: 520px;
+	  background:#000;
+	  color:#fff ;
+	  top:60%;
+	  left:50%;
+	  position:absolute;
+	  transform:translate(-50%,-50%);
+	  box-sizing:border-box;
+	  padding:70px 30px;
+}
+.Donate h1{
+	margin:0;
+	padding:0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}  */ 
+.Donate p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+.Donate input{
+	width:100%;
+	margin-bottom:20px; 
+}
+.Donate input[type="text"], input[type="Password"]{
+	
+	border: none;
+	border-bottom: 1px solid #fff; 
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color:#fff;
+	font-size:16px;
+	}
+.Donate input[type="submit"]
+	{
+		border: none; 
+		outline: none;
+		height: 40px;
+		background: #fb2525;
+		color: #fff;
+		font-size: 18px;
+		border-radius: 20px;
+		
+	}  
+	.Donate input[type="submit"]:hover
+	{
+		cursor:pointer;
+		background:#8B008B;
+		code:#000;
+	}
+	
+	
+	
+	
+	.Donate a
+	{
+		text-decoration:none;
+		font-size:16px;
+		line-height:20px;
+		color:#fff;
+		display: inline;
+	}
+	.Donate a:hover
+	{
+		cursor:pointer;
+		background:#fff;
+		color:#8B008B;
+	
+	}
+	.Contactus{
+	  width: 420px;
+	  height: 520px;
+	  background:#000;
+	  color:#fff ;
+	  top:60%;
+	  left:50%;
+	  position:absolute;
+	  transform:translate(-50%,-50%);
+	  box-sizing:border-box;
+	  padding:70px 30px;
+}
+.Contactus h1{
+	margin:0;
+	padding:0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}  */ 
+.Contactus p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+.Contactus input{
+	width:100%;
+	margin-bottom:20px; 
+}
+.Contactus input[type="text"], input[type="Password"]{
+	
+	border: none;
+	border-bottom: 1px solid #fff; 
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color:#fff;
+	font-size:16px;
+	}
+.Contactus input[type="submit"]
+	{
+		border: none; 
+		outline: none;
+		height: 40px;
+		background: #fb2525;
+		color: #fff;
+		font-size: 18px;
+		border-radius: 20px;
+		
+	}  
+	.Contactus input[type="submit"]:hover
+	{
+		cursor:pointer;
+		background:#8B008B;
+		code:#000;
+	}
+	
+	
+	
+	
+	.Contactus a
+	{
+		text-decoration:none;
+		font-size:16px;
+		line-height:20px;
+		color:#fff;
+		display: inline;
+	}
+	.Contactus a:hover
+	{
+		cursor:pointer;
+		background:#fff;
+		color:#8B008B;
+	
+	}
+	
+	
+	
